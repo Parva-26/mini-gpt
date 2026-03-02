@@ -15,7 +15,6 @@ The goal of this project was not just to copy the architecture, but to deeply un
 - Autoregressive text generation
 - Training loop structure and gradient stability
 
----
 
 ## Model Architecture
 
@@ -28,7 +27,6 @@ The goal of this project was not just to copy the architecture, but to deeply un
 
 The model is trained at character-level on a Shakespeare-style dataset.
 
----
 
 ## Training Details
 
@@ -41,7 +39,6 @@ The model is trained at character-level on a Shakespeare-style dataset.
 
 This implementation focuses on clarity and correctness rather than scaling to billions of parameters.
 
----
 
 ## Example Generation
 
@@ -86,22 +83,7 @@ Peace to do them her beat wear t
 
 (Output varies depending on training time.)
 
----
 
-## Project Structure
-
-mini-gpt/
-│
-├── model.py  # Transformer architecture
-├── dataset.py  # Text dataset + batching
-├── config.py  # Hyperparameters
-├── train.py  # Training loop
-├── generate.py  # Sampling and text generation
-├── input.txt  # Training corpus
-├── requirements.txt
-└── README.md
-
----
 
 ## How to Run
 
@@ -111,7 +93,6 @@ python train.py
 ### Generate Text
 python generate.py
 
----
 
 ## What I Learned
 
@@ -123,7 +104,6 @@ This project helped me understand:
 - How transformer blocks stack hierarchically
 - The difference between architectural understanding and large-scale training
 
----
 
 ## Future Improvements
 
@@ -133,6 +113,5 @@ This project helped me understand:
 - Implement GPT-2 scale architecture
 - Experiment with fine-tuning
 
----
 
 This is part of my journey toward understanding large-scale language models at a systems level.
