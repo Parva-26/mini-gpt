@@ -88,11 +88,13 @@ Peace to do them her beat wear t
 ## How to Run
 
 ### Train
+```bash
 python train.py
-
+```
 ### Generate Text
+```bash
 python generate.py
-
+```
 
 ## What I Learned
 
